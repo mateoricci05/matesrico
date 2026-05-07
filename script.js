@@ -691,17 +691,17 @@ function generarWhatsapp(localidad) {
     : "📦 Envío a coordinar (cotizamos por correo o acercamiento)";
 
   const mensaje =
-`¡Hola mates.rico! 👋 Quiero hacer el siguiente pedido:
+`¡Hola mates.rico!  Quiero hacer el siguiente pedido:
 
 ${detalle}
 
 ─────────────────────
-💰 *Total productos: ${fmt(total)}*
-📍 *Mi localidad: ${localidad}*
-${envioTexto}
+ *Total productos: ${fmt(total)}*
+ *Mi localidad: ${localidad}*
+ {envioTexto}
 ─────────────────────
 
-¿Me confirmás disponibilidad y coordenamos la entrega? ¡Gracias! 🧉`;
+¿Me confirmás disponibilidad y coordinamos la entrega? ¡Gracias! `;
 
   const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(mensaje)}`;
   window.open(url, "_blank");
