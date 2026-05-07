@@ -158,14 +158,14 @@ const productos = [
   },
   {
     id: 10,
-    nombre: "Kit Matera Clásico — Torpedo + Yerba",
-    descripcion: "Todo para arrancar a matear: Torpedo Virola Alpaca cuero negro + bombilla pico de loro + 1kg de Yerba Baldo incluida. Un solo pack, todo adentro.",
+    nombre: "Kit Matera Clásico — Imperial + Yerba",
+    descripcion: "Todo para arrancar a matear: Imperial Virola Alpaca cuero negro + bombilla pico de loro + 1kg de Yerba Baldo incluida. Un solo pack, todo adentro.",
     precio: 68000,
     stock: 1,
     imagen: "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=600&q=80",
     categoria: "Combos",
     features: [
-      "Torpedo Virola Alpaca Cuero Negro",
+      "Imperial Virola Alpaca Cuero Negro",
       "Bombilla pico de loro acero",
       "Yerba Baldo 1kg incluida",
       "Packaging MATES.RICO",
