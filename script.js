@@ -158,7 +158,7 @@ const productos = [
   },
   {
     id: 10,
-    nombre: "Kit Matera Clásico — Imperial + Yerba",
+    nombre: "Kit Matera Clásico — Imperial + Yerba Baldo 1kg",
     descripcion: "Todo para arrancar a matear: Imperial Virola Alpaca cuero negro + bombilla pico de loro + 1kg de Yerba Baldo incluida. Un solo pack, todo adentro.",
     precio: 68000,
     stock: 1,
